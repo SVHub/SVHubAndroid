@@ -3,4 +3,46 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="str_welcome">Welcome</string>
+    <string-array name="formItemsKeys">
+        <item>email</item>
+        <item>fullname</item>
+        <item>home_country</item>
+        <item>gender</item>
+        <item>spoken_languages</item>
+        <item>city_of_residence</item>
+        <item>university</item>
+        <item>department</item>
+        <item>tshirt_size</item>
+    </string-array>
+    <string-array name="formItems">
+        <item>e-mail</item>
+        <item>Full Name</item>
+        <item>Country</item>
+        <item>gender</item>
+        <item>spoken languages</item>
+        <item>city</item>
+        <item>University</item>
+        <item>department</item>
+        <item>T-Shirt size</item>
+    </string-array>
+    <string-array name="formIcons">
+        <item>fa_envelope</item>
+        <item>fa_user</item>
+        <item>fa_flag</item>
+        <item>fa_transgender</item>
+        <item>fa_comment</item>
+        <item>fa_map_marker</item>
+        <item>fa_graduation_cap</item>
+        <item>fa_building_o</item>
+        <item>fa_arrows</item>
+    </string-array>
+    <string-array name="tshirt_sizes">
+        <item>xs</item>
+        <item>s</item>
+        <item>m</item>
+        <item>l</item>
+        <item>xl</item>
+        <item>xxl</item>
+    </string-array>
+
 </resources>

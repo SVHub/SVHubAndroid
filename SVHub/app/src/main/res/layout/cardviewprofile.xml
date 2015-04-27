@@ -30,6 +30,13 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Medium Text"
                 android:id="@+id/txtView_username" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/formItemsHolder"></LinearLayout>
+
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
