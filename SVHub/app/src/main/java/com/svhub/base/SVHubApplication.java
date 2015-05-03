@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.parse.Parse;
+import com.svhub.R;
 
 /**
  * Created by Martin on 26.04.2015.
@@ -19,6 +20,8 @@ public class SVHubApplication extends Application{
         Parse.enableLocalDatastore(this);
         // ParseUser.enableAutomaticUser();
         //ParseCrashReporting.enable(this);
-        Parse.initialize(getApplicationContext(), "UfPEiaABWyAhkthWHZgEuXWIJan06UqV1B8zFXxV", "vZXQmUUHjGjN41XDkrPwsexZkIkJSHrHG9GDDBdG");
+
+
+        Parse.initialize(getApplicationContext(), getString(R.string.parse_appid),getString(R.string.parse_key));
     }
 }
