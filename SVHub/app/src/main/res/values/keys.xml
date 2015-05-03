@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="parse_key">YOUR_PARSE_KEY</string>
+    <string name="parse_appid">YOUR_PARSE_ID</string>
+</resources>
